@@ -1,0 +1,31 @@
+.image {
+  -webkit-transform: rotate(-10deg);
+      -moz-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+      -o-transform: rotate(-10deg);
+      transform: rotate(-10deg);
+      position: absolute;
+      left: 480px;
+}
+h1 {
+    position: relative;
+}
+
+h1 span {
+    background-color: white;
+    padding-right: 10px;
+}
+
+h1:after {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid black;
+    z-index: -1;
+}
+body {
+  background-color: white;
+}
